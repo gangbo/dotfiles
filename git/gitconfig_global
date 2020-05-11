@@ -1,0 +1,18 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+	fileMode = false
+	excludesfile = /home/gangbo/dotfiles/git/gitignore_global
+	autocrlf = false
+[user]
+	name = gangbo.dai
+	email = daigangbo@gmail.com
+[i18n]
+	commitEncoding = utf-8
+	logoutputencoding = utf-8
+[color]
+	ui = true
