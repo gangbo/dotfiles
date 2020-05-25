@@ -42,7 +42,7 @@ Plugin 'jistr/vim-nerdtree-tabs.git'
 "--
 "-- Note: You don't set neobundle setting in .gvimrc!
 "-- Original repos on github
-Plugin 'gangbo/vim_open_pm'
+"Plugin 'gangbo/vim_open_pm'
 "-- vim-scripts repos
 Plugin 'vim-startify'
 
