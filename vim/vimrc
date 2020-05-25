@@ -31,7 +31,8 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Avoid a name conflict with L9
 " Plugin 'user/L9', {'name': 'newL9'}
 
-Plugin 'scrooloose/nerdtree'
+Plugin 'preservim/nerdtree'
+
 
 Plugin 'jistr/vim-nerdtree-tabs.git'
 
@@ -143,7 +144,8 @@ set textwidth=178
 "Mappings
 "===============
 ":nmap <C-c><C-c> :!perl -Wc %<CR>
-:nmap <C-c><C-c> :!php -l %<CR>
+:map nt :NERDTreeMirror<CR>
+:map nt :NERDTreeToggle<CR>
 
 syntax match Trail " +$"
 highlight def link Trail Todo
