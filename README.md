@@ -1,4 +1,5 @@
 # dotfiles
+常用配置文件
 
 ## install
 ```
