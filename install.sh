@@ -1,8 +1,10 @@
 #!/bin/bash
 #set -v
-sudo apt-get update
-sudo apt-get upgrade -y
-sudo apt-get install gcc git wget tree vim curl zsh zip tmux -y
+
+#-sudo apt-get update
+#-sudo apt-get upgrade -y
+#-sudo apt-get install gcc git wget tree vim curl zsh zip tmux -y
+
 echo ">>> download dotfiles"
 git clone https://github.com/gangbo/dotfiles.git ~/dotfiles
 
