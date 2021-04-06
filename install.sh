@@ -37,6 +37,13 @@ installTmux() {
     ln -sf ~/dotfiles/tmux/tmux.conf ~/.tmux.conf
     touch ~/.tmux.conf.local
 }
+installComposer() {
+    mkdir ~/.composer
+    ln -sf ~/dotfiles/composer/config.json ~/.composer/config.json
+}
+
+echo "配置php composer"
+
 
 echo "切换shell为zsh"
 installZsh
